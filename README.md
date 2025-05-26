@@ -11,7 +11,7 @@ Ini adalah proyek portofolio statis sederhana yang dibuat menggunakan **HTML** d
 
 Klik link di bawah untuk melihat tampilan web secara langsung:
 
-👉 [Lihat di GitHub Pages](https://username.github.io/namarepo/)  
+👉 [Lihat di GitHub Pages](gh repo clone voltskies/porto_vania)  
 *(Ganti dengan link GitHub Pages milikmu)*
 
 ## 📌 Cuplikan Kode

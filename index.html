@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portofolio Saya</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>Portofolio Saya</h1>
+            <nav>
+                <ul>
+                    <li><a href="#about">Tentang Saya</a></li>
+                    <li><a href="#projects">Proyek</a></li>
+                    <li><a href="#skills">Keahlian</a></li>
+                    <li><a href="#contact">Kontak</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section id="hero">
+        <div class="container">
+            <div class="hero-content">
+                <h2>Halo, Saya <span>VANIA RAHMAWATI</span></h2>
+                <p>Web Developer | Designer | Student</p>
+                <a href="#contact" class="btn">Hubungi Saya</a>
+            </div>
+            <div class="vania-image">
+                <img src="CV_Vania.jpg" alt="Foto Profil">
+            </div>
+        </div>
+    </section>
+
+    <section id="about" class="section">
+        <div class="container">
+            <h2>Tentang Saya</h2>
+            <p>Saya seorang pelajar dengan ketertarikan besar pada dunia desain. Saya bersemangat untuk terus belajar dan menciptakan karya visual yang menarik. Saya juga memiliki ketertarikan yang kuat pada dunia programming dan saat ini sedang aktif belajar menggunakan Visual Studio Code.</p>
+            <p> Dengan keinginan dan tekad yang sungguh-sungguh, saya yakin akan konsisten dalam berlatih dan mengembangkan keterampilan saya.</p>
+        </div>
+    </section>
+
+ <section id="projects" class="section">
+    <div class="container">
+        <h2>Proyek Terbaru</h2>
+        <div class="projects-grid">
+            <!-- Proyek 1 -->
+            <div class="project-item">
+                <img src="P_Cahaya.jpg" alt="Proyek 1" class="project-image">
+                <div class="project-info">
+                    <h3>Aplikasi Penghitung Cahaya</h3>
+                    <p>Aplikasi ini dibuat untuk mengukur intensitas cahaya dalam satuan nits</p>
+                </div>
+            </div>
+            
+            <!-- Proyek 2 -->
+            <div class="project-item">
+                <img src="https://via.placeholder.com/400x250" alt="Proyek 2" class="project-image">
+                <div class="project-info">
+                    <h3>Aplikasi Translate Inggris & Indonesia</h3>
+                    <p>Aplikasi translate ini dibuat sebagai proyek kolaborasi antar mata pelajaran</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+    <section id="skills" class="section">
+        <div class="container">
+            <h2>Keahlian</h2>
+            <div class="skills-list">
+                <div class="skill">
+                    <i class="fab fa-html5"></i>
+                    <h3>HTML5</h3>
+                    <p>Menguasai secara komprehensif konsep dan praktik terbaik dalam membangun struktur HTML.</p>
+                </div>
+                <div class="skill">
+                    <i class="fab fa-css3-alt"></i>
+                    <h3>CSS3</h3>
+                    <p>Menggunakan teknik terkini untuk mengatur posisi dan ukuran elemen halaman web secara dinamis</p>
+                </div>
+                <div class="skill">
+                    <i class=" fab fa-js"></i>
+                    <h3>JavaScript</h3>
+                    <p>Dapat mengembangkan aplikasi yang memiliki alur yang jelas dan terdefinisi</p>
+                </div>
+                <div class="skill">
+                    <i class="fab fa-react"></i>
+                    <h3>React</h3>
+                    <p>Mampu membangun aplikasi web dengan arsitektur single-page</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="section">
+        <div class="container">
+            <h2>Hubungi Saya</h2>
+            <form>
+                <div class="form-group">
+                    <label for="name">Nama</label>
+                    <input type="text" id="name" name="name" required>
+                </div>
+                <div class="form-group">
+                    <label for="email">Email</label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+                <div class="form-group">
+                    <label for="message">Pesan</label>
+                    <textarea id="message" name="message" rows="5" required></textarea>
+                </div>
+                <button type="submit" class="btn">Kirim Pesan</button>
+            </form>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2025 Portofolio Saya. All rights reserved.</p>
+            <div class="social-links">
+                <a href="https://www.instagram.com/vania.3991/" target="_blank" 
+                    class="instagram"
+                    aria-label="Instagram Saya">
+                    <i class="fab fa-instagram"></i> @vania.3991
+                 </a>
+            </div>
+         </div>
+    </footer>
+</body>
+</html>
